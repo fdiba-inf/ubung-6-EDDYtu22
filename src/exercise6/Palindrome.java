@@ -16,8 +16,10 @@ public class Palindrome {
 
                 if (sNumber.charAt(i) == sNumber.charAt(p) ) {
                     flag = true;
+                    continue;
                 }else if (sNumber.charAt(i) != sNumber.charAt(p)){
                     flag = false;
+                    continue;
                 }
             }
 
